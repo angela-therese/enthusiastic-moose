@@ -17,12 +17,8 @@ namespace EnthusiasticMoose
     // As a question
     MooseQuestion("Is Canada real?", "Really? It seems very unlikely.",  "I  K N E W  I T !!!");
     MooseQuestion("Are you enthusiastic?", "Yay!", "That's too bad.");
-    // CanadaQuestion();
-    // EnthusiasticQuestion();
-    // LoveCSharpQuestion();
-    // SecretQuestion();
+    MooseQuestion("Do you want to know a secret?", "I always want to know a secret.", "No, too much pressure.");
 }
-
 
 static void MooseQuestion(string question, string answer1, string answer2)
 {
@@ -34,57 +30,6 @@ static void MooseQuestion(string question, string answer1, string answer2)
     else
     {
         MooseSays(answer2);
-    }
-}
-// static void CanadaQuestion()
-// {
-//     bool isTrue = MooseAsks("Is Canada real?");
-//     if (isTrue)
-//     {
-//         MooseSays("Really? It seems very unlikely.");
-//     }
-//     else
-//     {
-//         MooseSays("I  K N E W  I T !!!");
-//     }
-// }
-
-// static void EnthusiasticQuestion()
-// {
-//     bool isEnthusiastic = MooseAsks("Are you enthusiastic?");
-//     if (isEnthusiastic)
-//     {
-//         MooseSays("Yay!");
-//     }
-//     else
-//     {
-//         MooseSays("You should try it!");
-//     }
-// }
-
-// static void LoveCSharpQuestion()
-// {
-//     bool doesLoveCSharp = MooseAsks("Do you love C# yet?");
-//     if (doesLoveCSharp)
-//     {
-//         MooseSays("Good job sucking up to your instructor!");
-//     }
-//     else
-//     {
-//         MooseSays("You will...oh, yes, you will...");
-//     }
-// }
-
-static void SecretQuestion()
-{
-    bool isEverythingFine = MooseAsks("Do you want to know a secret?");
-    if (isEverythingFine)
-    {
-        MooseSays("ME TOO!!!! I love secrets...tell me one!");
-    }
-    else
-    {
-        MooseSays("Oh, no...secrets are the best, I love to share them!");
     }
 }
 
